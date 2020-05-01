@@ -12,9 +12,13 @@ document.getElementById('mybutton').onclick = function() {
 
 
 document.getElementById('flex').onclick = function() {
-    
-    this.innerHTML = '<div class="container" id="box"style=display:"flex"; style="background-color: yellow;" style="width:50%" >';
-    document.ElementById("box").style.display = none;
+  document.getElementById("box").style.display = "none";
+
+  this.innerHTML= document.getElementById("one", "two").style.display = "flex";
+  flexbox.innerHTML += '<div id="flexbox"> Что-то';
+  document.getElementById("flexbox").style.backgroundColor = "pink";
+
+
 
  
  };
